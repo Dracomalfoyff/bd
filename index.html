@@ -22,10 +22,8 @@
     <div class="envelope" id="envelope">
 
       <!-- Top Video Overlay (visible before click) -->
-      <video class="overlay-video" id="overlayVideo" autoplay muted loop playsinline>
-        <source src="love1.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <img src="love1.gif" class="overlay-gif" id="overlayGif" alt="Love animation" />
+
 
       <!-- Centered Ribbon PNG (on top) -->
       <img src="ribbon.png" alt="Ribbon" class="center-ribbon" id="centerRibbon" />
@@ -44,6 +42,11 @@
       </div>
     </div>
   </div>
+<video id="fullscreenVideo" class="fullscreen-video" playsinline>
+  <source src="love2.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 
   <!-- Scripts -->
   <script src="heart.js"></script>
